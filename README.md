@@ -90,6 +90,7 @@ Backend:
 Frontend:
 
 - `VITE_API_URL`: public backend API URL
+- Production fallback: `https://assessment-1-api.onrender.com`
 
 ## Deployment Notes
 
@@ -138,6 +139,12 @@ Alternative hosting setup:
 - Docker image: publish the backend image to Docker Hub or GitHub Container Registry
 
 Set `VITE_API_URL` in the frontend host to the deployed backend URL. Set `CORS_ORIGINS` in the backend host to the deployed frontend URL.
+
+For Vercel frontend deployments, set:
+
+- `VITE_API_URL=https://assessment-1-api.onrender.com`
+
+The backend also allows Vercel preview/production domains through `CORS_ORIGIN_REGEX`.
 
 ## Required Submission Fields
 
