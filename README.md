@@ -150,5 +150,5 @@ The backend also allows Vercel preview/production domains through `CORS_ORIGIN_R
 
 - GitHub repository link: https://github.com/Anantkr23/Assesment1.O
 - Docker image link: https://hub.docker.com/r/anantkr23/assessment1-backend
-- Live frontend URL: https://assessment-1-frontend.onrender.com
+- Live frontend URL: https://assesment-1.vercel.app
 - Live backend/API docs URL: https://assessment-1-api.onrender.com/docs
