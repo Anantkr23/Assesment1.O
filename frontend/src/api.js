@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || "https://assessment-1-api.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_URL}${path}`, {
