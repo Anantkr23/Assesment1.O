@@ -142,6 +142,6 @@ Set `VITE_API_URL` in the frontend host to the deployed backend URL. Set `CORS_O
 ## Required Submission Fields
 
 - GitHub repository link: https://github.com/Anantkr23/Assesment1.O
-- Docker image link: Not published separately; deployed from GitHub using Render Blueprint
+- Docker image link: https://hub.docker.com/r/anantkr23/assessment1-backend
 - Live frontend URL: https://assessment-1-frontend.onrender.com
 - Live backend/API docs URL: https://assessment-1-api.onrender.com/docs
