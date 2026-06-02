@@ -99,6 +99,12 @@ This repository includes a Render Blueprint in `render.yaml`. After the code is 
 - Backend API: `assessment-1-api`
 - Frontend site: `assessment-1-frontend`
 
+## Docker Image
+
+- Docker Hub: https://hub.docker.com/r/anantkr23/assessment1-backend
+- Pull command: `docker pull anantkr23/assessment1-backend:latest`
+- Image tag: `anantkr23/assessment1-backend:latest`
+
 ### Deploy Permanently With GitHub + Render
 
 1. Push this project to a GitHub repository.
