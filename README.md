@@ -105,7 +105,14 @@ This repository includes a Render Blueprint in `render.yaml`. After the code is 
 2. In Render, choose **New > Blueprint**.
 3. Connect the GitHub repository.
 4. Select the repository and apply the `render.yaml` blueprint.
-5. Use paid Render plans for permanent hosting:
+5. For a no-cost test deployment, use Render's free plans:
+   - Backend web service: `free`
+   - PostgreSQL database: `free`
+   - Frontend static site: free
+
+Free Render hosting is not permanent production hosting. Free web services spin down when idle, and free PostgreSQL databases expire after 30 days. Upgrade the backend and database plans when you need the app to stay available permanently.
+
+For permanent hosting, use paid Render plans:
    - Backend web service: `starter`
    - PostgreSQL database: `basic-256mb`
    - Frontend static site: can remain static hosting
